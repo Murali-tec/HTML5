@@ -1,0 +1,104 @@
+HTML stands for Hyper Text Mark up Language
+
+Structure of HTML:
+<!DOCTYPE html>
+<html>
+    <head><title>Structure of html</title></head>
+    <body>
+        <h3><b>Hello Html</b></h3>
+    </body>
+</html>
+
+Headings:
+There are 6 heading tags numbered from <h1> to <h6>
+Which varies in size based on the priority of the Heading of the Content
+
+Text Formatting:
+1)Normal Text----> on the body
+
+2)Bold Text-----><b> tag
+
+3)Italic Text----><i> tag
+
+4)Paragraph Tag----><p> tag
+
+5)Underline Text----><u> tag
+
+6)Strong Text-----><strong> tag
+
+7)Emphasised text----><em> tag
+
+8)Marked text----><mark> tag
+
+9)Same as Typed text----><tt> tag
+
+10)Striked text-----><strike> tag
+
+11)a2+b2+2ab---><sup> tag
+
+12)H20----><sub> tag
+
+13)Deleted text----><del> tag
+
+14)Small Text-----><small> tag
+
+15)Big Text----><big> tag
+
+Anchor Tag:
+<a> --> Anchor tag
+<a href="http://www.google.com">Google</a>
+
+Font in Html:
+<!DOCTYPE html>
+<html>
+    <head><title>Font Properties</title></head>
+    <body bgcolor="pink">
+        <p align="Left">
+            <font face="Algerian" size="3" color="Blue">
+            India, officially the Republic of India (Hindi: Bharat Ga?arajya),[26] is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west;[f] China, Nepal, and Bhutan to the north; 
+            and Bangladesh and Myanmar to the east. In the Indian Ocean,</font></p>
+            <p align="Center"><font face="Constantia" size="4" color="Red">India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands 
+            share a maritime border with Thailand, Myanmar, and Indonesia. The nation's capital city is New Delhi.
+            India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, 
+            the second-most populous country, and the most populous democracy in the world.
+           </font>
+        </p>
+    </body>
+</html>
+Attributes:
+1)Font face
+2)Font size
+3)Font color
+
+Alignments
+1)Left
+2)Right
+3)Center
+
+Table tag:
+Attributes:
+1)Border
+2)bordercolor
+3)cell padding
+4)cell spacing
+5)bgcolor
+6)height
+7)width
+8)align
+
+sematic tags:
+1)Header
+2)Main
+3)Footer
+4)Article
+5)Section
+6)Figure
+7)figcaption
+8)details
+9)Summary
+10)Aside
+11)mark
+12)nav
+13)time
+
+Forms and inputs:

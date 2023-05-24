@@ -1,0 +1,62 @@
+<!--
+Rowspan and Colspan in Tables
+-->
+<!DOCTYPE html>
+<htmL>
+    <head><title></title></head>
+    <body>
+       
+        <center>
+       <h3>Colspan</h3>
+        <table border="1" cellpadding="5">
+            <style>
+                table{
+                    border-collapse:collapse;
+                }
+            th,td{
+                border:2px solid black
+            }
+            </style>
+            <tr>
+                <th>S.no</th>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>Murali</td>
+                <td>Rahul</td>
+            </tr>
+            <tr>
+                <th>Product</th>
+                <td colspan="2">Laptop</td>
+            </tr>
+            <tr>
+                <th>Sales amount</th>
+                <td colspan="2">20000</td>
+            </tr>
+        </table>
+        <br>
+        <h3>Rowspan</h3>
+        <table border="2" cellpadding="5px">
+            <tr>
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Product</th>
+                <th>Sales amount</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Murali</td>
+                <td rowspan="2">Laptop</td>
+                <td rowspan="2">20000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rahul</td>
+                
+            </tr>
+        </table>
+        </center>
+    </body>
+</htmL>

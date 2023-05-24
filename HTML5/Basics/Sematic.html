@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Murali" content="Sematic tags">
+        <link rel="stylesheet" href="./Style.css">
+        <title>
+            Sematic Elements in HTML
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1>My Goals of the year</h1>
+            
+            <nav aria-label="Primary_navigation">
+                <ul>
+                    <li><a href="#html">Learning Html</a></li>
+                    <li><a href="#vacation">Planning a vacation</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <section id="html">
+
+                <h2>My Ready to Learn HTML</h2>
+                <p>This is my first Web page</p>
+
+                <img src="./download.png" alt="Html5 Logo" title="Im learning Hmtl5">
+                <figure>
+                    <figcaption>
+                        A Example of Hmtl5 
+                    </figcaption>
+                </figure>
+            </section>
+
+            <h3>My daily Shedule;</h3>
+            <p>Let me tell you how:</p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Bootstrap</li>
+            </ol>
+            <section id="vacation">
+                <h2>I'm also planning a vacation</h2>
+                <p>
+                    I've been working hard and <em>really need a gateway</em>
+                </p>
+                <p>I live near <abbr title="Kanas">KS</abbr>So I want to  visit the beach</p>
+
+            </section>
+            <aside>
+                <details>
+                    <summary>
+                        Guess the No.of.hours I code?
+                    </summary>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Reiciendis iure soluta voluptatibus? Illo natus, suscipit minima, neque dolorem provident consequuntur asperiores necessitatibus soluta blanditiis et dolorum. 
+                        Illum quia consequatur necessitatibus?
+                    </p>
+                </details>
+            </aside>
+            <br>
+            <table>
+                <caption>
+                    My Daily Schedule
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Time </th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody><tr>
+                    <th>Morning</th>
+                    <td><time datetime="8.00">8.00am-</time>
+                    <time datetime="11.00">11.00am</time></td>
+                   
+                    <td>Write Code</td>
+                </tr>
+               
+                <tr>
+                    <th>Break</th>
+                    <td><time datetime="11.00">11.00am-</time>
+                    <time datetime="12.00">12.00am</time></td>
+                    
+                    <td>Eat Lunch</td>
+                </tr>
+              
+                <tr>
+                    <th>Afternoon</th>
+                    <td><time datetime="11.00">12.00am-</time>
+                    <time datetime="17.00">5.00pm</time></td>
+                    
+                    <td>Study for other courses</td>
+                </tr>
+                
+                <tr>
+                    <th>Evening</th>
+                    <td rowspan="2px">All other times</td>
+                    <td>free time</td>
+                    
+                </tr>
+                <tr>
+                    <th>Night</th>
+                    <td>sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2px">And that's What I do Daily everyday</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        <article id="Contact">
+            <h2>Contact Me</h2>
+            <p>I'd  really like to hear from You</p>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+
+                
+                <p>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" autocomplete="on" required>
+                </p>
+                <p>  
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" autocomplete="on">
+
+                </p>
+                <p>
+                    <label for="password">PassWord:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" >
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="555-555-55555" required>
+                </p>
+                <p>
+                    <label for="decade">Fav decade:</label>
+                    <input type="number" name="decade" id="decade" min="1950" max="2050" step="10" value="2000">
+                </p>
+              
+            </form>
+        </fieldset>
+        <br>
+        <br>
+        
+
+        </article>
+        <fieldset>
+            <legend>What is ur fav food?</legend>
+            <p>
+                <input type="radio" name="tacos" id="tacos" value="tacos">
+                <label for="tacos">tacos</label>
+            </p>
+            <p>
+                <input type="radio" name="Coffee" id="Coffee" value="Coffee">
+                <label for="tacos">Coffee</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="food" value="food">
+                <label for="tacos">food</label>
+            </p>
+            <p>
+                <input type="radio" name="others" id="others" value="others">
+                <label for="tacos">others</label>
+            </p>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Do you have pets?</legend>
+            <p>
+                <input type="checkbox" name="cat" id="cat">
+                <label for="cat">Cat</label>
+            </p>
+            <p>
+                <input type="checkbox" name="Squirrel" id="Squirrel">
+                <label for="Squirrel">Squirrel</label>
+            </p>
+            <p>
+                <input type="checkbox" name="Dog" id="Dog">
+                <label for="Dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="Rat" id="Rat">
+                <label for="Rat">Rat</label>
+            </p>
+        </fieldset>
+
+        </main>
+        <hr>
+        <footer>
+            <p>&lt;&lt;&lt;&copy;<a href="#">Dave Gray</a>&gt;&gt;&gt;</p>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </footer>
+    </body>
+</html>
+
